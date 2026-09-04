@@ -18,8 +18,8 @@
 
                 /* Thumb Row */
                 &to 1
-                &kp 1 BSPC
-                &kp 1 SPACE
+                &kp BSPC
+                &kp SPACE
 
                 /* Lower Thumbs */
                 &kp TAB
@@ -44,8 +44,8 @@
                 &kp ENTER
 
                 /* Lower Thumbs */
-                &trans
-                &trans
+                &kp TAB
+                &kp ESC
             >;
         };
     };

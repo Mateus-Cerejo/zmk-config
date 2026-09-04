@@ -1,6 +1,6 @@
 if SHIELD_BOOMERANG_LEFT
 
 config ZMK_KEYBOARD_NAME
-  default "boomerang_left"
+  default "Boomerang"
 
 endif
