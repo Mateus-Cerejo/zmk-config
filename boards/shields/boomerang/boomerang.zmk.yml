@@ -1,0 +1,8 @@
+file_format: "1"
+id: boomerang
+name: Boomerang
+type: shield
+url: https://github.com/Mateus-Cerejo/Keyboard-Boomerang
+requires: [pro_micro]
+features:
+  - keys

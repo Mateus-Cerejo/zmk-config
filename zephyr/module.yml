@@ -1,3 +1,4 @@
+name: zmk-keyboard-boomerang
 build:
   settings:
     board_root: .
