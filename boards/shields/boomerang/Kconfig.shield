@@ -1,2 +1,7 @@
-config SHIELD_BOOMERANG
-    def_bool $(shields_list_contains,boomerang)
+# No whitespace after the comma or in your part name!
+config SHIELD_BOOMERANG_LEFT
+    def_bool $(shields_list_contains,boomerang_left)
+
+# No whitespace after the comma or in your part name!
+config SHIELD_BOOMERANG_RIGHT
+    def_bool $(shields_list_contains,boomerang_right)

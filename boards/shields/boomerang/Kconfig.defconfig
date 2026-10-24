@@ -1,7 +1,16 @@
-
-if SHIELD_BOOMERANG
+if SHIELD_BOOMERANG_LEFT
 
 config ZMK_KEYBOARD_NAME
     default "Boomerang"
+
+config ZMK_SPLIT_ROLE_CENTRAL
+    default y
+
+endif
+
+if SHIELD_BOOMERANG_LEFT || SHIELD_BOOMERANG_RIGHT
+
+config ZMK_SPLIT
+    default y
 
 endif

@@ -6,3 +6,6 @@ url: https://github.com/Mateus-Cerejo/Keyboard-Boomerang
 requires: [pro_micro]
 features:
   - keys
+siblings:
+  - boomerang_left
+  - boomerang_right

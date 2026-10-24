@@ -1,5 +1,6 @@
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/keys.h>
+#include <dt-bindings/zmk/bt.h>
 
 #define LC LCTRL
 #define LS LSHIFT
@@ -10,17 +11,17 @@
 
 / {
     keymap {
-	compatible = "zmk,keymap";
+		compatible = "zmk,keymap";
 
-	default_layer { // Layer 0
-	    bindings = <
-	&kp Q   &kp W   &kp E   &kp R
-&kp LC	&kp A   &kp S   &kp D   &kp F   &kp G
-	&kp Z   &kp X   &kp C   &kp V
-				&kp LS	&kp SP	&kp LA
-						&kp BS
-						&kp ENT
-	    >;
-	};
+		default_layer { // Layer 0
+			bindings = <
+			&kp Q   &kp W   &kp E   &kp R									&kp Y   &kp U   &kp I   &kp O
+	&kp LC	&kp A   &kp S   &kp D   &kp F   &kp G					&kp H	&kp I   &kp J   &kp K   &kp L   &kp SEMI
+			&kp Z   &kp X   &kp C   &kp V									&kp N   &kp M   &kp COMMA   &kp DOT
+									&kp LS	&kp SP	&kp LA		&kp LS	&kp SP	&kp BT1
+													&kp BS		&kp BS
+													&kp ENT		&kp ENT
+			>;
+		};
     };
  };
