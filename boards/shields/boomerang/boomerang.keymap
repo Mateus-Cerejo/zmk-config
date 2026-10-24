@@ -2,8 +2,6 @@
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/bt.h>
 
-#define LC LCTRL
-#define LS LSHIFT
 #define ENT ENTER
 #define BS BACKSPACE
 #define SP SPACE
@@ -15,9 +13,9 @@
 		default_layer { // Layer 0
 			bindings = <
 			&kp Q   &kp W   &kp E   &kp R									&kp Y   &kp U   &kp I   &kp O
-	&kp LC	&kp A   &kp S   &kp D   &kp F   &kp G					&kp H	&kp I   &kp J   &kp K   &kp L   &kp SEMI
+	&kp LCTRL	&kp A   &kp S   &kp D   &kp F   &kp G					&kp H	&kp I   &kp J   &kp K   &kp L   &kp SEMI
 			&kp Z   &kp X   &kp C   &kp V									&kp N   &kp M   &kp COMMA   &kp DOT
-									&kp LS	&kp SP	&kp LALT		&kp LS	&kp SP	&kp BT1
+									&kp LSHIFT	&kp SP	&kp LALT		&kp LS	&kp SP	&kp BT1
 													&kp BS		&kp BS
 													&kp ENT		&kp ENT
 			>;
