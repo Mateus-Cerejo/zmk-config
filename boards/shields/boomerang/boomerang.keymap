@@ -4,7 +4,6 @@
 
 #define LC LCTRL
 #define LS LSHIFT
-#define LA LALT
 #define ENT ENTER
 #define BS BACKSPACE
 #define SP SPACE
@@ -18,7 +17,7 @@
 			&kp Q   &kp W   &kp E   &kp R									&kp Y   &kp U   &kp I   &kp O
 	&kp LC	&kp A   &kp S   &kp D   &kp F   &kp G					&kp H	&kp I   &kp J   &kp K   &kp L   &kp SEMI
 			&kp Z   &kp X   &kp C   &kp V									&kp N   &kp M   &kp COMMA   &kp DOT
-									&kp LS	&kp SP	&kp LA		&kp LS	&kp SP	&kp BT1
+									&kp LS	&kp SP	&kp LALT		&kp LS	&kp SP	&kp BT1
 													&kp BS		&kp BS
 													&kp ENT		&kp ENT
 			>;
